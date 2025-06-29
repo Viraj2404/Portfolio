@@ -4,7 +4,7 @@ function Navbar({onContactClick}) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-0 p-0 px-4">
       <div className="container-fluid">
-        <a className="navbar-brand  logo-body" href="/user" style={{ fontSize: '3 rem' }}>Viraj Shinde</a>
+        <a className="navbar-brand  logo-body" href="/" style={{ fontSize: '3 rem' }}>Viraj Shinde</a>
 
         <button
           className="navbar-toggler"
@@ -21,7 +21,7 @@ function Navbar({onContactClick}) {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" to="/user">Home</Link>
+              <Link className="nav-link active" to="/">Home</Link>
             </li>
            
             <li className="nav-item">
